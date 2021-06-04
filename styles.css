@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    display: flex;
+    /* overflow: hidden;
+    position: fixed; */
+}
+.nav-list{
+width: 50%;
+background-color: black;
+display: flex;
+align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 23px 26px;
+}
+.nav-list li a{
+ text-decoration: none;
+ color: white;
+}
+.nav-list li a:hover{
+   
+    color: rgb(136, 10, 10);
+   }
+
+.rightNav{
+    width: 50%;
+    background-color: rgb(136, 10, 10);
+    text-align: right;
+}
+.logo{
+    width: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    width: 33%;
+    border: 1px solid purple;
+    border-radius: 50px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    width: 300px;
+
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("background.jpg");
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    height: 70vh;
+    width: 100%;
+}
+.firstsection{
+    height: 80vh;
+}
+.btnhover:hover{
+    color:black;
+}
+.myButton {
+	box-shadow: 0px 0px 0px 2px black;
+	background:linear-gradient(to bottom, black 5%,black 100%);
+	background-color:black;
+	border-radius:10px;
+	border:1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Verdana;
+	font-size:15px;
+    margin-left: 10px;
+	padding:10px 10px 10px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px black;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, rgb(136, 10, 10) 5%, #7892c2 100%);
+	background-color:rgb(136, 10, 10);
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+footer{
+    background-color: black;
+    height: 130px;
+    padding-top: 15px;
+    text-align: center;
+}
+.wrapper{
+    width: 100%;
+}
+.text-small{
+    font-size: 20px;
+}
+.imgr{
+    border: 0.001px none purple; 
+    border-radius: 100px;
+     padding: 20px;
+}
+.text-big{
+    text-decoration: underline;
+    font-size: 50px;
+}
+.rightNav{
+    padding-top: 10px;
+    padding-right: 15px;
+}
+.education{
+    height: 300px;
+    margin-left: 100px;
+}
+.cchess{
+    position: relative;
+     left:360px;
+     font-family: 'Shadows Into Light', cursive;
+     bottom: 55px;
+     font-size: 30px;
+    width: 840px;
+}
+.chesss{
+    height: 300px;
+    margin-left: 100px;
+     margin-top:30px;
+     position: absolute;
+     right: 100px;
+}
+.h1chess{
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+    position: relative;
+    left:200px;
+    text-decoration: underline;
+    display: inline-block;
+}
+.h1edu{
+    margin-left:20px;
+    text-decoration: underline;
+    font-size: 50px; 
+     font-family: 'Shadows Into Light',
+      cursive; display: inline-block;
+      position: relative;
+      bottom: 220px;
+}
+.edupara{
+    font-size: 30px; 
+    font-family: 'Shadows Into Light';
+    display: inline-block;
+    position: relative;
+    bottom: 83px;left: 20px;
+}
+.myButton1 {
+	box-shadow:inset 0px 1px 0px 0px rgb(136, 10, 10);
+	background:linear-gradient(to bottom, rgb(136, 10, 10) 5%,rgb(136, 10, 10) 100%);
+	background-color:rgb(136, 10, 10);
+	border-radius:6px;
+	border:1px solid rgb(136, 10, 10);
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family: 'Shadows Into Light',
+      cursive;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px rgb(136, 10, 10);
+    position: relative;
+    top: 15px;
+}
+.myButton1:hover {
+	background:linear-gradient(to bottom, black 5%, black 100%);
+	background-color:black;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+}
+.h1c{
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+}
+.navbaar{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    text-decoration: underline;
+    overflow: hidden;
+    position: fixed;
+}
+.front{
+    height: 250px;
+    position: relative;
+    top: 80px;
+    left:300px;
+
+}
+.c{
+    height: 250px;
+    width: 221px;
+    position: relative;
+    left: 600px;
+    bottom:170px;
+}
+.py{
+    height: 250px;
+    width: 221px;
+    position: relative;
+    left: 899px;
+    bottom: 425px;
+}
+
+.certi{
+    background-image: url(background.jpg);
+   
+    width: 100%;
+}
+.java{
+    position: relative;
+    left: 419px;
+    bottom: 349px;
+    height: 217px;
+}
+.ds{
+    height: 176px;
+    position: relative;
+    left: 837px;
+    bottom: 538px;
+}
+.hp{
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+}
+.pnav{
+    background-color: black;
+    text-align: center;
+}
+.pbody{
+    background-image: url(background.jpg);
+    text-align: center;
+}
+.tdtext{
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+}
+.tdimg{
+    height: 180px;
+}
+.htdd{
+    font-size: 40px;
+    text-decoration: underline;
+}
+.tdp{
+    font-size: 30px;
+}
+@media only screen and (max-width: 600px) {
+   
+    .foot{
+        width: 100%;
+    }
+    .nvr{
+        width: 50%;
+    }
+    .text-small{
+        font-size: 12px;
+        position:relative;
+        left: 20px;
+    }
+    .imgr{
+        height: 80px;
+        border-radius: 150px;
+        position: relative;
+        right: 50px;
+        bottom: 150px;
+        top: 1px;
+        left: 3px;
+    }
+    .text-big{
+        text-decoration: underline;
+        font-size: 25px;
+        position: relative;
+        left: 30px;
+    }
+    #search{
+        visibility: hidden;
+
+    }
+    .myButton{
+        
+      visibility: hidden;
+  }
+  li{
+      padding: 3px 3px 3px 3px;
+  }
+  .rightNav{
+    visibility: hidden; 
+  }
+  .nav-list{
+      width: 100%;
+  }
+  #cp{
+    width: 30px;
+    border: 1px solid purple;
+    border-radius: 50px;
+    position: relative;
+    left: 5px;
+  }
+  .nav-list li{
+    list-style: none;
+    padding: 10px 10px 10px 17px;
+}
+.cchess{
+  font-size: 10px;
+  position: relative;
+  right: 50px;
+  left: 70px;
+  bottom: 0;
+  font-size: 10px;
+  display: inline;
+}
+.chesss{
+    height: 90px;
+    position: absolute;
+    left: 2px;
+    margin-left: 2px;
+    margin-top: 5px;
+
+}
+.h1chess{
+    font-size: 30px;
+    position: relative;
+    right: 100px;
+    left: 70px;
+}
+.h1edu{
+    margin-left: 150px;
+    text-decoration: underline;
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    bottom: 220px;
+    margin-top: 20px;
+    font-family: 'Shadows Into Light',
+      cursive;
+
+}
+.education{
+    height: 150px;
+    margin-left: 0;
+}
+.edupara{
+    font-size: 12px;
+    font-family: 'Shadows Into Light';
+    display: inline-block;
+    position: relative;
+    bottom: 192px;
+    left: 152px;
+    text-align: start;
+    width: 50%;
+}
+.dvo{
+    height: 215px;
+    width: 100%;
+}
+.myButton1{
+   position: relative;
+   left: 80px;
+   width: 150px;
+   top: 50px;
+   font-family: 'Shadows Into Light',
+      cursive;
+}
+.nav-bar{
+    overflow: hidden;
+    position: fixed; 
+}
+.front{
+    height: 149px;
+    position: relative;
+    top: 81px;
+    left: 23px;
+}
+.c{
+    height: 152px;
+    width: 129px;
+    position: relative;
+    left: 193px;
+    bottom: 72px;
+}
+.py{
+    height: 132px;
+    width: 180px;
+    position: relative;
+    left: 92px;
+    bottom: 30px;
+}
+.java{
+    height: 108px;
+    position: relative;
+    left: 14px;
+    top: 12px;
+}
+.ds{
+    height: 81px;
+    position: relative;
+    left: 206px;
+    bottom: 86px;
+}
+.tdp{
+    font-size: 13px;
+}
+.tdimg{
+    height: 144px;
+}
+
+}
