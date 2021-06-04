@@ -182,10 +182,7 @@ footer{
 	background:linear-gradient(to bottom, black 5%, black 100%);
 	background-color:black;
 }
-.myButton1:active {
-	position:relative;
-	top:1px;
-}
+
 .h1c{
     color: white;
     font-family: 'Shadows Into Light', cursive;
